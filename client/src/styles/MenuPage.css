@@ -1,0 +1,48 @@
+.AppHeader {
+  padding: 0 1rem 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #106dca;
+  margin-bottom: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.menu-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 3.2rem;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: transparent;
+  color: #f8f9fa;
+  transform: none;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.menu-link:hover,
+.menu-link:active {
+  color: #212529;
+}
+
+.menu-icon {
+  color: #e9f0f7;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}

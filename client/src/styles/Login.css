@@ -1,0 +1,101 @@
+/* 
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+ - Font sizes(px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+ */
+
+.heading-two {
+  font-size: 1.8rem;
+  font-weight: 600;
+  list-style: 1;
+  color: #1b0168;
+  letter-spacing: 0.75;
+  margin-bottom: 2rem;
+}
+
+.main-form {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.84)
+    ),
+    url("./img/towfiqu-barbhuiya-nApaSgkzaxg-unsplash.jpg.jpg");
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-form {
+  padding: 4rem 8rem;
+  border: 1px solid #495057;
+  background-color: #f1f3f5;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.login-form label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  margin-bottom: 0.5rem;
+  color: #101214;
+}
+
+.login-form input {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 1rem;
+  font-family: inherit;
+  border: none;
+  background-color: #e9ecef;
+  color: #495057;
+  border-radius: 0.9rem;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.5rem;
+}
+
+.login-form .error-show {
+  display: block;
+  margin-bottom: 1.2rem;
+  font-family: inherit;
+  font-weight: bold;
+  color: #a85454;
+}
+
+.submit-btn {
+  padding: 0.5rem 0 0.5rem 0;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+  background-color: #0b345b;
+  color: #e9ecef;
+}
+
+.submit-btn:hover,
+.submit-btn:active {
+  background-color: #f1f3f5;
+  color: #26292c;
+  border: 1px solid #26292c;
+}
+
+.login-form input::placeholder {
+  color: #868e96;
+  padding: 0.2rem;
+}
+
+.main-form *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(215, 140, 79, 0.4);
+}

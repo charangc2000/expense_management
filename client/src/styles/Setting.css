@@ -1,0 +1,51 @@
+.budget-container {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin-bottom: 3.2rem;
+}
+
+.cards {
+  width: 50%;
+  background-color: #fdf2e9;
+}
+
+.back-link {
+  margin: 3.2rem 0 3.2rem 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: rgb(61, 61, 186);
+  color: #f8f9fa;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  background-color: rgb(3, 3, 151);
+  color: #f8f9fa;
+}
+
+.primary-heading {
+  font-size: 1rem;
+}
+
+.setting-btn {
+  display: flex;
+  gap: 2rem;
+}
+
+.main-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
